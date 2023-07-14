@@ -32,5 +32,5 @@ function App() {
     </>
   );
 }
-export const REACT_APP_SERVER_DOMIN = "http://localhost:8080"
+export const REACT_APP_SERVER_DOMIN = "https://restaurant-app-cr.vercel.app"
 export default App;
