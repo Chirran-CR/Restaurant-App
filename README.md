@@ -1,5 +1,3 @@
-# Job task
-
 # Online Food Ordering System
 
 This is a simple web application built using React.js and Node.js that allows users to view a restaurant's menu and place an order. Users can select dishes from the menu, specify the quantity of each dish, and view a summary of their order, including the total price and estimated delivery time.
