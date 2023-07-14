@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "version": 2,
     "name": "music-album",
     "builds": [
@@ -8,3 +9,14 @@
        { "src": "/(.*)", "dest": "/app.js" }
     ]
  }
+=======
+   "version": 2,
+   "name": "music-album",
+   "builds": [
+      { "src": "app.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/app.js" }
+   ]
+}
+>>>>>>> 9ce97d5b9bc5fb7c480b324b738c131fa4700119
