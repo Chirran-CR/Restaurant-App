@@ -104,3 +104,22 @@ const userSchema = mongoose.Schema({
   image: String,
 });
 ```
+## Images of Output:-
+
+1. Homepage
+![Homepage](screenshot/1.png)
+
+2. Menu
+![Homepage](screenshot/2.png)
+![Homepage](screenshot/3.png)
+![Homepage](screenshot/4.png)
+![Homepage](screenshot/5.png)
+
+3. Single Item Page With Description
+![Homepage](screenshot/6.png)
+
+4. Cart Page With Quantity Updation
+![Homepage](screenshot/7.png)
+
+5. Login/Registration Page
+![Homepage](screenshot/8.png)
