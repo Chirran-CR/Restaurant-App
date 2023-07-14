@@ -6,9 +6,9 @@ const Stripe = require('stripe')
 const app = express();
 app.use(express.json());
 const corsOrigin ={
-  origin:['http://localhost:3000',"https://restaurant-app-axuy.vercel.app"],//or whatever port your frontend is using
+  origin:['http://localhost:3000',"https://restaurant-app-axuy.vercel.app","https://restaurant-app-cr.vercel.app"],//or whatever port your frontend is using
   headers:["Content-Type"],
-  credentials:true,            
+  // credentials:true,            
   optionSuccessStatus:200
 }
 app.use(cors(corsOrigin));
