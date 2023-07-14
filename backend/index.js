@@ -112,6 +112,7 @@ app.post("/uploadProduct",async(req,res)=>{
 
 //
 app.get("/product",async(req,res)=>{
+  console.log("inside product...")
   const data = await productModel.find({})
   res.send(JSON.stringify(data))
 })
